@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to IC Banking LLC!</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Account Application"/>
+<title>Account Application</title><link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800"'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main id="main" class="container">
+   <div class="row">
+      <div class="col-xs-12 col-lg-offset-3 col-lg-6">
+         <div class="m-b-md text-center">
+            <h1 id="title">Account Application</h1>
+            
+         </div>
+         <div class="m-b-md text-center">
+            <p id="result"></p>
+            
+         </div>
+         <form class='form' action="" id="application-form" name="application-form" >
+            <fieldset>
+               <label for="firstname" id="firstname-label">
+               First Name *
+               <input class="" type="text" id="name_first" name="name" placeholder="Enter your First name (required)" required />
+               </label>
+            </fieldset>
+            <fieldset>
+               <label for="lastname" id="lastname-label">
+               Last Name *
+               <input class="" type="text" id="name_last" placeholder="Enter your Last name (required)" required />
+               </label>
+            </fieldset>
+            <fieldset>
+               <label for="address1" id="address1-label">
+                Address Line 1 *
+               <input class="" type="text" id="address_line_1" placeholder="Enter your Street Address (required)" required />
+               </label>
+            </fieldset>
+            <fieldset>
+               <label for="address2" id="address2-label">
+                Address Line 2
+               <input class="" type="text" id="address_line_2" placeholder="Enter your 2nd line of the address"/>
+               </label>
+            </fieldset>
+            <fieldset>
+               <label for="city" id="city-label">
+                City *
+               <input class="" type="text" id="address_city" placeholder="Enter your City(required)" required />
+               </label>
+            </fieldset>
+            <fieldset>
+               <label for="state" id="state-label">
+                State (must be a two-letter code, ex. NY, CA, etc.) *
+               <input class="" type="text" id="address_state" max="2" placeholder="Enter your State (required)" required />
+               </label>
+            </fieldset>
+            <fieldset>
+               <label for="zip" id="zip-label">
+                Zip/Postal Code *
+               <input class="" type="text" id="address_postal_code" placeholder="Enter your Postal Code (required)" required />
+               </label>
+            </fieldset>
+            <fieldset>
+               <label for="country" id="country-label">
+                Country *
+               <input class="" type="text" id="address_country_code" placeholder="Enter your Country (required)" required />
+               </label>
+            </fieldset>
+            <fieldset>
+               <label for="ssn" id="ssn-label">
+               SSN (must be 9 digits) *
+               <input class="" type="text" id="document_ssn" max="9" placeholder="Enter your email (required)" required />
+               </label>
+            </fieldset>
+            <fieldset>
+               <label for="email" id="email-label">
+               Email *
+               <input class="" type="email" id="email_address" placeholder="Enter your email (required)" required />
+               </label>
+            </fieldset>
+            <fieldset>
+               <label for="birth" id="birth-label">
+               Date of Birth (YYYY-MM-DD) *
+               <input class="" type="text" id="birth_date" max="10" placeholder="Enter your Date of Birth (required)" required />
+            </fieldset>
+            <button id="submit" type="submit" class="btn">Submit the form</button>
+         </div>
+      </div>
+   </div>
+</main>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='config.js'></script>
+<script src='alloy.js'></script>
+</body>
+</html>
